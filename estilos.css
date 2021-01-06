@@ -1,0 +1,13 @@
+html {
+  margin: 2em;
+  background: lightgray;
+  background-image: url("images/bgmama-opacity50.jpg");
+  font-family: 'Bebas Neue', arial;
+}
+
+body {
+  /* border: 1px solid red; */
+  max-width: 640px;
+  padding: 2em;
+  margin: 0 auto;
+}
