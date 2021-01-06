@@ -1,8 +1,22 @@
+@font-face {
+  font-family: YoungSerif;
+  src: url(assets/YoungSerif-Regular.otf);
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  text-shadow: 0.5px 0 0 currentColor;
+  color: #be57ff;
+}
+
 html {
   margin: 2em;
   background: lightgray;
   background-image: url("images/bgmama-opacity50.jpg");
-  font-family: 'Bebas Neue', arial;
+  font-family: 'YoungSerif';
+  color: #3f1e59;
+  /* font-family: 'Bebas Neue', arial; */
 }
 
 header {
@@ -31,6 +45,10 @@ body {
   width: 120px;
 }
 
+#turma {
+  display: flex;
+}
+
 #precos {
   display: grid;
   grid-template-columns: 22em auto;
@@ -43,13 +61,12 @@ body {
 
 #precos>div:first-of-type {
   color: white;
-  background: purple;
+  background: #be57ff;
 }
 
 #precos div {
   /* border: 1px solid red;
   color: red; */
-  border: 1px solid lightgray;
-  background: white;
+  background: #dca3ff;
   padding: 1em;
 }
