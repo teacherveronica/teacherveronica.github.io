@@ -5,23 +5,35 @@ html {
   font-family: 'Bebas Neue', arial;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 2em;
+}
+
 body {
   /* border: 1px solid red; */
-  max-width: 640px;
-  padding: 2em;
+  max-width: 60em;
+  padding: 0em;
   margin: 0 auto;
 }
 
 .logo {
   width: 120px;
-  float: right;
-  margin: 0;
-  padding: 0;
 }
 
 #precos {
   display: grid;
-  grid-template-columns: 200px auto;
+  grid-template-columns: 22em auto;
   grid-template-areas: 
     "header header"
     "nome   value";
