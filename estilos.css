@@ -11,3 +11,33 @@ body {
   padding: 2em;
   margin: 0 auto;
 }
+
+.logo {
+  width: 120px;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+#precos {
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-areas: 
+    "header header"
+    "nome   value";
+  column-gap: 0;
+  row-gap: 0;
+}
+
+#precos>div:first-of-type {
+  color: white;
+  background: purple;
+}
+
+#precos div {
+  /* border: 1px solid red;
+  color: red; */
+  border: 1px solid lightgray;
+  background: white;
+  padding: 1em;
+}
