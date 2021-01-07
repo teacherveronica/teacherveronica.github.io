@@ -61,7 +61,7 @@ body {
 
 #precos {
   display: grid;
-  grid-template-columns: 22em auto;
+  grid-template-columns: auto auto;
   grid-template-areas: 
     "header header"
     "nome   value";
