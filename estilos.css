@@ -7,7 +7,17 @@ em {
   font-weight: bold;
   font-style: normal;
   text-shadow: 0.5px 0 0 currentColor;
+  color: #3f1e59;
+}
+
+a {
+  text-decoration: none;
+}
+
+em:hover {
+  text-decoration: none;
   color: #be57ff;
+  text-shadow: 0.5px 0 0 currentColor;
 }
 
 html {
